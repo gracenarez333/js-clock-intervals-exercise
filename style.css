@@ -1,14 +1,37 @@
 #clock {
+    position: relative;
 }
 
 #clock img {
 }
 
 #hour {
+    position: absolute;
+    left: 0;
 }
 
 #minute {
+    position: absolute;
+    left: 0;
+    z-index: 2;
 }
 
 #second {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+}
+html {
+    background-color: rgb(211, 125, 232);
+}
+p {
+    text-align: center;
+    font-size: 300%;
+    background-color: rgb(85, 30, 79);
+    color: rgb(227, 91, 136);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
